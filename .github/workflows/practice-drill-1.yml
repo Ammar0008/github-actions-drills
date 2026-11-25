@@ -1,1 +1,11 @@
+name: Practice Drill 1
 
+on:
+  push:
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+
+    steps:
+      - run: echo "Hello Ammar"
