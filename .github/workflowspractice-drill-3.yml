@@ -1,0 +1,19 @@
+name: Practice drill 3
+
+on:
+  push:
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Greeting
+    run: echo "Hello Ammar"
+    
+    - name: Status check
+    run: echo "Github actions work"
+
+    - name: Finish
+    run: echo "drill complete"
+    
